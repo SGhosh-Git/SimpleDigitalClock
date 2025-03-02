@@ -1,0 +1,28 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #918e8e;
+    }
+
+    .clock {
+      padding: 2rem;
+      background-color: #0011ff;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .time {
+      font-size: 4rem;
+      color: #fff;
+      text-align: center;
+      font-family: monospace;
+    }
